@@ -1849,9 +1849,4 @@ div > a[href*="supabase.co"] {
 
 
 
-/* Hide "to continue to" text with link */
-:not(style):not(script):not(title):not(meta):not(link):contains("to continue to") {
-  display: none !important;
-}
-
 

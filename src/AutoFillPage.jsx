@@ -387,9 +387,6 @@ export default function AutoFillPage({ user, showToast, supabase }) {
             </div>
           </div>
         </div>
-        <a className="af-official-link" href={exam.link} target="_blank" rel="noreferrer">
-          Open Official Site ↗
-        </a>
       </div>
 
       {/* ── Missing fields warning ── */}

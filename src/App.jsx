@@ -1,5 +1,3 @@
-import { signInWithPopup } from "firebase/auth";
-import { auth, provider } from "./firebase";
 import AutoFillPage from "./AutoFillPage";
 import registraLogo from "./registra-logo.png";
 import registralogo1 from "./registra-logo1.png";
@@ -642,9 +640,6 @@ function CalendarPage() {
               <div className="muted" style={{ fontSize: 13, marginBottom: 8 }}>
                 {d >= 0 ? `${d} days to go` : "Window likely passed — check next cycle"}
               </div>
-              <a className="exam-link" href={ex.link} target="_blank" rel="noreferrer">
-                Official site ↗
-              </a>
               <div className="exam-accent-bar" />
             </div>
           );
